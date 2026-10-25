@@ -1,0 +1,22 @@
+{
+  "name": "quest-bot",
+  "version": "1.0.0",
+  "description": "row Quest Bot",
+  "main": "index.js",
+  "author": "row",
+  "license": "Proprietary - row",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "echo 'Dependencies installed'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "node-fetch": "^2.7.0",
+    "sql.js": "^1.12.0",
+    "uuid": "^11.0.3"
+  },
+  "homepage": "row"
+}
